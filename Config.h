@@ -73,7 +73,7 @@ enum SensorNumber
 
 //Sensor Control Values
 #define MinPH 7.1
-#define MaxPH 7.4
+#define MaxPH 7.6
 #define MinEC 0.5
 #define MaxEC 1.0
 #define	MinDO 1.5

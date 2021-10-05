@@ -1,28 +1,4 @@
-/*********************************************************************
 
-*
-* Copyright (C)    2020  CHARFARM
-* 
-
-* Description:
-* This sample code is mainly used to monitor water quality for hydroponic farming applications
-* including 1)ph,2)temperature,3) dissolved oxygen,4) ec 5) Amb Temp/ Hum. 6) light intensity  UV level, CO2 level , tank level ...
-* It controls pumps for PH, DO, EC control.
-* It has wifi connection for user interface.
-*
-*
-* Sensor pin: check out Config.
-* 
-* SD card attached to SPI bus as follows:
-* Mega:  MOSI - pin 51, MISO - pin 50, CLK - pin 52, CS - pin 53
-* and pin #53 (SS) must be an output
-* 
-* M0:   Onboard SPI pin,CS - pin 4 (CS pin can be changed)
-*
-* author  :  Ali Alp Gurer, Yusuf Mert Senturk
-* version :  V1.0
-* date    :  2020-10
-**********************************************************************/
 //#define BOARD "Mega 2560"
 #include <SPI.h>
 #include <SD.h>
